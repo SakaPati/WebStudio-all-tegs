@@ -1,0 +1,128 @@
+/* default setting это я сам подумал пригодица*/
+body ul,button,a{
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    padding: 0;
+}
+/* Navigation */
+:root{
+    --mainfoot-color: #757575;
+    --webcolor: #2196F3;
+    --websize: 26px;
+    --studiocolor: #000;
+    --studiocolor2: #FFFFFF;
+    --backcolor: #2F303A;
+}
+.web {
+    color: var(--webcolor);
+    font-size: var(--websize)
+}
+.studiob {
+    color: var(--studiocolor);
+    font-size: var(--websize);
+}
+.studiow {
+    color: var(--studiocolor2);
+    font-size: var(--websize);}
+/* Nav */
+.nav {
+    color: var(--studiocolor);
+}
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus{
+    color: var(--webcolor);
+}
+.contact{
+    color: var(--mainfoot-color);
+}
+
+/* MAIN */
+.section{
+    background-color: var(--backcolor);
+}
+
+h1 {
+    color: var(--studiocolor2);
+    text-align: center;
+}
+
+button{
+    background-color: var(--webcolor);
+    color: var(--studiocolor2);
+}
+
+.description{
+    color: var(--mainfoot-color);
+}
+
+.teamname{
+    color: var(--mainfoot-color);
+}
+
+/* footer */
+footer{
+    background-color: var(--backcolor);
+}
+.address{
+    color: var(--studiocolor2);
+}
+
+/* Fonts */
+
+/* WebStudio */
+a[href^="/"]{
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+/* Navigation */
+.nav{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+}
+
+button{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+/* Опис якостей */
+.description2{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.description{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+/* Чим займаються */
+section h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+/* Команда */
+section h3{
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+section p{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+/* Адрес і контакти */
+.address{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.contact{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
